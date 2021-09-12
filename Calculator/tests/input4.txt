@@ -1,0 +1,19 @@
+567abcbasn
+342223hello this should be read as number
++yes
+pok
+_123hello
+fn
+*hello
+fn
+trandom2
+*asdf sdf this will be empty
+000ancds
+1hello
+random
+fn
+/
+1
+pyes
+qok
+fn

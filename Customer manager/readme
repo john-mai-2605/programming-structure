@@ -1,0 +1,19 @@
+Name: Mai Tung Duong
+ID: 20180745
+Assignment number: 3
+
+Array implementation save memory (only need to save the actual information) but has high time complexity.
+Frequent reqistration and unregisteration creates many holes (empty elements) scattered across the array.
+
+Hash table implementation waste some more memory (the array for hash index and the link between elements) 
+but has better time performance. There are more overhead (hashing) and might be sensitive to collisions
+
+Detail comparison:
+complexity          Space (memory)          Create              Insertion (unique)  Deletion                Search              Destroy
+Array               O(N)                    O(1)                O(N)                O(N)                    O(N)                O(N)
+Hash table          O(N)                    O(1)                O(N/bucketsize)     O(N/bucketsize)         O(N/bucketsize)     O(N)
+(with big bucketsize, O(N/bucketsize) ~ O(1))
+
+I implement hash table expansion in RegisterCustomer function
+I use 1 late day.
+Reference: Assignment document, C documentation, gcc documentation

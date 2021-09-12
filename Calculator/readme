@@ -1,0 +1,9 @@
+Name: Mai Tung Duong
+ID: 20180745
+Assignment number: 4
+
+I use 1 late day.
+Reference: Assignment document, C documentation, gcc documentation, Assembly documentation
+I also refer to https://stackoverflow.com/questions/30559296/diff-command-in-bash to make a bash file to automatically test my code.
+To run, simply "bash test.sh"
+For invalid input starting with "_", it will be intepreted as 0 (consistent with atoi functionality).

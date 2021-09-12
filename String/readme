@@ -1,0 +1,12 @@
+Name: Mai Tung Duong
+ID: 20180745
+Assignment number: 2
+Is it possible for StrCopy to call assert to verify that the destination memory area specified by the caller is large enough? Explain.
+No. Since we use the pointer, we have no way to check the memory occupied by the pointer. 
+It can also have data cleared to 0, but not the string ending Null character, making null checking not reliable.
+If the destination memory is too small, most likely the buffer overflow happens.
+
+I use 1 free late day for this assignment.
+Part 1 was implemented based on Pointer notation only.
+
+Reference: Assignment document, C documentation, gcc documentation
